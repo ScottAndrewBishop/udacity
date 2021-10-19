@@ -1,0 +1,14 @@
+# Directories
+# --------------------------------------------------
+/Banana_Windows_x86_64
+/Banana
+
+.ipynb_checkpoints
+.vscode
+
+
+# Files
+# --------------------------------------------------
+report.Rmd
+report.pdf
+unity-environment.log
