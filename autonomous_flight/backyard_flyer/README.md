@@ -1,8 +1,6 @@
 # Backyard Flyer
 
-<br>
-
-## **Environment Setup**
+### **Environment Setup**
 
 <br>
 
@@ -48,7 +46,7 @@ Finally, download this repository's **backyard_flyer.py** script and ensure it e
 <br>
 
 
-## **Script Execution**
+### **Script Execution**
 
 <br>
 
@@ -112,7 +110,7 @@ From the **visdom** flight plan plots exhibited in the above image it is evident
 
 <br>
 
-## **Notes**
+### **Notes**
 
 <br>
 
