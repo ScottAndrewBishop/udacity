@@ -1,0 +1,19 @@
+# Hidden Files
+# --------------------------------------------------
+.DS_Store
+.cache
+
+
+# Files
+# --------------------------------------------------
+/CODEOWNERS
+/environment.yml
+/jupyter_notebook_config.py
+/meta_windows_patch.yml
+/run.sh
+
+
+# Folders
+# --------------------------------------------------
+/docs/
+/logs/
