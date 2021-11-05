@@ -1,0 +1,24 @@
+# Hidden Files
+# --------------------------------------------------
+.DS_Store
+.cache
+__pycache__
+
+
+# Files
+# --------------------------------------------------
+/backyard_flyer_solution.py
+/CODEOWNERS
+/colliders.csv
+/setup.cfg
+/Untitled.ipynb
+/writeup_template.md
+/WRITEUP.md
+
+
+# Folders
+# --------------------------------------------------
+/docs/
+/logs/
+/Logs/
+/misc/
