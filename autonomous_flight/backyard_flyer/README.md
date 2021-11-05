@@ -66,7 +66,7 @@ visdom
 
 <br>
 
-This will download any necessary scripts for **visdom** and output a message specifying the link for accessing the simulated drone's visdualized flight plan in the browser. For me this access message appeared as follows:
+This will download any necessary scripts for **visdom** and output a message specifying the link for accessing the simulated drone's visualized flight plan in the browser. For me this access message appeared as follows:
 
 <pre>
 You can navigate to http://localhost:8097
@@ -102,7 +102,7 @@ python backyard_flyer.py --port --host --use_visdom --distance
 
 <br>
 
-**port** and **host** typically will remain at their default values (**5760** and **127.0.0.1** respecrtively) as they are used to successfully establish the **MavlinkConnection**. **use_visdom** evidently adds metric information to the simulated drone's flight plan. The fourth parameter is **distance**; this dictates the distance in meters the simulated drone will travel along each edge of the planned square path. The default value is 10 meters.
+**port** and **host** typically will remain at their default values (**5760** and **127.0.0.1** respectively) as they are used to successfully establish the **MavlinkConnection**. **use_visdom** evidently adds metric information to the simulated drone's flight plan. The fourth parameter is **distance**; this dictates the distance in meters the simulated drone will travel along each edge of the planned square path. The default value is 10 meters.
 
 <br>
 
