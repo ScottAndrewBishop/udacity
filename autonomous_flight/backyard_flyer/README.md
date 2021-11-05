@@ -110,8 +110,4 @@ From the **visdom** flight plan plots exhibited in the above image it is evident
 
 <br>
 
-### **Notes**
-
-<br>
-
 The [**API Documentation**](https://udacity.github.io/udacidrone/docs/drone-api.html) has more details about the **udacidrone** module used in the **backyard_flyer.py** script. More information on the **Drone** class and the provided API can be located in this [**GitHub**](https://github.com/udacity/udacidrone) repository.
