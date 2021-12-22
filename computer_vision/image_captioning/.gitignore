@@ -1,0 +1,6 @@
+# Directories
+# --------------------------------------------------
+/.ipynb_checkpoints
+/logs
+/models
+/vocab
