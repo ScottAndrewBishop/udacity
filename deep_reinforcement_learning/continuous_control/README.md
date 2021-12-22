@@ -154,9 +154,18 @@ Now download the precompiled Unity Environment using one of the following links 
 
 <br>
 
-Finally, locate the **p2_continuous-control** folder from the cloned Udacity repository and replace the **01_train.ipynb** file with the file of the same name in this repository. This repository's file will contain a DDPG ([Deep Deterministic Policy Gradient](https://arxiv.org/pdf/1509.02971.pdf)) architecture that the agents will more intelligently learn from.
+Finally, locate and enter the **p2_continuous-control** folder from the cloned Udacity repository. Remove the **Continuous_Control.ipynb** file from that folder and add the following files from this repository:
 
-Once the **Continuous_Control.ipynb** file has been replaced, you will need to place the unzipped Unity environment download (**Step V**) within that **p2_continuous-control** folder. The **Continuous_Control.ipynb** script will train the agents and the Unity environment will serve as the environment the agents will train within.
+- **01_train.ipynb**
+- **02_plot.ipynb**
+- **Actor.py**
+- **Agent.py**
+- **Buffer.py**
+- **config.py**
+- **Critic.py**
+- **utils.py**
+
+Once the specified files are included, you will need to place the unzipped Unity environment download (**Step V**) within that **p2_continuous-control** folder. The **01_train.ipynb** script will train the agent and the Unity environment will serve as the environment the agent will train within.
 
 <br><br>
 
@@ -170,11 +179,7 @@ This section will assume the steps in the **Installation** section has been comp
 
 <br>
 
-Also, make sure the **file_name** parameter value in the **UnityEnvironment** method matches the filename of the Unity environment that had been downloaded and added in **Step V** and **Step VI** of the **Installation** section. For OSX this value is **Reacher**.
-
-<br>
-
-<img src="images/env_init.jpg" width="100%">
+Also, make sure the **file_name** parameter value in the **UnityEnvironment** method matches the filename of the Unity environment that had been downloaded and added in **Step V** and **Step VI** of the **Installation** section. For OSX as an example this value is **Reacher**.
 
 <br>
 
