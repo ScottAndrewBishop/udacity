@@ -1,0 +1,34 @@
+# Other
+# ==================================================
+
+[QuadEstimatorEKF]
+
+InitState   = 0, 0, -1, 0, 0, 0, 0
+InitStdDevs = .1, .1, .3, .1, .1, .3, .05
+
+
+# Process Noise Model
+# ==================================================
+
+QPosXYStd = 0.075
+QPosZStd  = .05
+QVelXYStd = 0.19
+QVelZStd  = .2
+QYawStd   = .085
+
+
+# GPS Measurement Standard Deviations
+# ==================================================
+
+GPSPosXYStd = 2.0
+GPSPosZStd  = 3.5
+GPSVelXYStd = 0.1
+GPSVelZStd  = 0.75
+
+
+# Magnetometer
+# ==================================================
+
+MagYawStd   = .1
+dtIMU       = 0.002
+attitudeTau = 100
