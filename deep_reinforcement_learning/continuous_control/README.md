@@ -157,7 +157,6 @@ Now download the precompiled Unity Environment using one of the following links 
 Finally, locate and enter the **p2_continuous-control** folder from the cloned Udacity repository. Remove the **Continuous_Control.ipynb** file from that folder and add the following files from this repository:
 
 - **01_train.ipynb**
-- **02_plot.ipynb**
 - **Actor.py**
 - **Agent.py**
 - **Buffer.py**
@@ -183,18 +182,10 @@ Also, make sure the **file_name** parameter value in the **UnityEnvironment** me
 
 <br>
 
-Once the notebook is run a Unity application window will open automatically. During the agent training you can navigate to this Unity application window and watch a very fast, first-person view of the agent running through the episodes and learning.
+Once the notebook is run a Unity application window will open automatically. During the agent training you can navigate to this Unity application window and watch a very fast view of the agents running through the episodes and learning.
 
 <br>
 
 <img src="images/train_mode_true.gif" width="100%">
-
-<br>
-
-Within the notebook you can monitor the score of the agents average score improve in realtime as it learns throughout the episodes!
-
-<br>
-
-<img src="images/training_print.gif" width="100%">
 
 <br><br>

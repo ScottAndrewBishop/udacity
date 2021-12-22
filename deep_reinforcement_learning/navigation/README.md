@@ -167,7 +167,6 @@ Download the precompiled Unity Environment using one of the following links base
 Finally, locate and enter the **p1_navigation** folder from the cloned Udacity repository. Remove the **Navigation.ipynb** file from that folder and add the following files from this repository:
 
 - **01_train.ipynb**
-- **02_plot.ipynb**
 - **Agent.py**
 - **Buffer.py**
 - **config.py**
@@ -199,14 +198,6 @@ Once the notebook is run a Unity application window will open automatically. Dur
 <br>
 
 <img src="images/training.gif" width="100%">
-
-<br>
-
-Within the notebook you can monitor the score of the agent's average reward for every 100 consecutive episodes in realtime improve as it learns throughout the episodes.
-
-<br>
-
-<img src="images/training_print.gif" width="100%">
 
 <br><br>
 
